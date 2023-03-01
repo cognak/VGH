@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e5dfa7f-020b-4d15-a69e-b2c88b276340">
+  <producedTypes>
+    <managerType typeId="401ebde3-3397-4db3-b714-382b306240ca" valueTypeId="bebeed35-0da4-4e58-a3e2-c0995940669d"/>
+    <valueManagerType typeId="5aa00c51-b5d5-4971-b3bc-b8c70e264540" valueTypeId="41f2bb8b-785f-46fb-be7e-4a1a007be9ba"/>
+    <valueKeyType typeId="a62d54bd-2633-4c15-b9f3-9396384becbc" valueTypeId="527079ef-f814-432a-b92b-5317f6c3a17f"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьОбменССайтами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обмен с сайтами</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Використовувати обмін з сайтами</value>
+  </synonym>
+  <comment>Флаг для одноименной функциональной опции</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

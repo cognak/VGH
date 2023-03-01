@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ed58313-8249-4b0c-8f33-eb033d21fc54">
+  <name>ОбменСМанжента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с манжента</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

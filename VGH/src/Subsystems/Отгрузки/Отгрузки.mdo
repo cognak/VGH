@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1f1cc7c-4a64-44a4-8c1a-11b877d6044b">
+  <name>Отгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отгрузки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаОптовыеПродажи</picture>
+  </picture>
+  <content>DataProcessor.ОформлениеОтгрузок</content>
+  <content>CommonPicture.ПодсистемаОптовыеПродажи</content>
+</mdclass:Subsystem>

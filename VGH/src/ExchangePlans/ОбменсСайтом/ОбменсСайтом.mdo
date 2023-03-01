@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f30f22c-e665-4eab-b94e-a5caa37a9e8a" thisNode="3e740937-75ca-4113-8080-4a93ba0b2e09">
+  <producedTypes>
+    <objectType typeId="3882184a-df35-47bf-bfe0-b0db183f11df" valueTypeId="c19c6564-0449-4cb4-9865-697e53d88ac2"/>
+    <refType typeId="590a0a62-2eef-48b9-9e69-b43c98658fb6" valueTypeId="634c5137-b018-4672-9e8a-95834dfcae0e"/>
+    <selectionType typeId="a5b9aeda-7f82-4356-8c1f-62b4a1bc868b" valueTypeId="81b89d3f-dfd7-4817-b032-2c23b5f0da30"/>
+    <listType typeId="d4a610c3-4dcb-403f-8a00-5e4a1e72f654" valueTypeId="6f68c6f0-624a-4164-9cf2-8eac2af8570d"/>
+    <managerType typeId="31576a93-68c3-4891-96e9-2851e8484bfc" valueTypeId="774f8818-02e0-4f7e-8c48-8e5deb5eb6d7"/>
+  </producedTypes>
+  <name>ОбменсСайтом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с сайтом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.ОбменсСайтом.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.ОбменсСайтом.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Узел обмена с сайтом</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Узел обмена с сайтом</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Обмены с сайтами</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Обмены с сайтами</value>
+  </extendedListPresentation>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>50</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ExchangePlan.ОбменсСайтом.Form.ФормаУзла</defaultObjectForm>
+  <defaultListForm>ExchangePlan.ОбменсСайтом.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="d14ff904-ba2b-4191-845e-1315503d4631">
+    <name>АдресСайта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес сайта</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Адреса сайту</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Адрес сайта, с которым настраивается обмен</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Адреса сайту, з яким налаштовується обмін</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="549da398-5ac0-4d9b-8a06-43df6d2448e1">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ім`я користувача</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя пользователя (логин) для авторизации на сайте</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Ім`я користувача (логін) для авторизації на сайті</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>admin</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="580cb80d-0af6-401e-abd9-dc5e2633982d">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <toolTip>
+      <key>ru</key>
+      <value>Пароль пользователя для авторизации на сайте</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Пароль користувача для авторизації на сайті</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8c252510-6860-4e4a-a2ea-a45d1fb3a00a">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e5226e6a-2812-4ca0-86b5-d9acf11a4ee0">
+    <name>СайтПодключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт подключен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="438f6ffe-a342-48e2-b0a8-33a0ba421528">
+    <name>ФормаУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e26d17f3-3487-401b-939a-998902f22742">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExchangePlan>

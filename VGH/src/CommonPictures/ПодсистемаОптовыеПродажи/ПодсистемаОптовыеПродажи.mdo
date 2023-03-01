@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be2b4757-dadb-4ddb-8b1c-73a15048b7e1">
+  <name>ПодсистемаОптовыеПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема оптовые продажи</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Підсистема оптові продажі</value>
+  </synonym>
+</mdclass:CommonPicture>

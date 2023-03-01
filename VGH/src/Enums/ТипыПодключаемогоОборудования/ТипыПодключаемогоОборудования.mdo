@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34c7b580-2319-4a0d-84cc-c8bfe215f11f">
+  <producedTypes>
+    <refType typeId="457068b8-f943-40c5-87df-32d0be13d284" valueTypeId="79d18465-2f3f-4b35-bb94-962a9d0d8647"/>
+    <listType typeId="15258e7a-8212-4d9c-a1eb-49c681d8fc4d" valueTypeId="2ef2bc96-1ff7-451e-a605-37e1ea3f3b98"/>
+    <managerType typeId="a3154a03-bbaa-46c4-90a5-9f347d6f04f0" valueTypeId="64baeccf-01e6-4417-a36c-7b195f771d6d"/>
+  </producedTypes>
+  <name>ТипыПодключаемогоОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы подключаемого оборудования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0fbf545d-8524-47db-9402-4c753cc43c8a">
+    <name>УстройствоВГХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устройство ВГХ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99eefd22-18e1-4e2c-8f7c-044e7d1a0a71">
+    <name>ЭлектронныеВесы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные весы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6cbbdb86-9eb4-4c50-8f5e-b99f94c32a14">
+    <name>СканерШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканер штрихкода</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

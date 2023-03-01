@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45a1b55d-8630-442f-a8a7-af3f8bad1903">
+  <name>ПодключаемоеОборудованиеУниверсальныйДрайверКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик универсального драйвер</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

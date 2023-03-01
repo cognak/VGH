@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a76c16a-fdbe-4517-bd6f-ab88aa7b45d4">
+  <producedTypes>
+    <managerType typeId="d0e0dbd3-d6cb-4471-88ab-6290bb807633" valueTypeId="eb92fff3-0b9e-44f5-b708-ae57594d1d12"/>
+    <valueManagerType typeId="60a98dae-f1a5-43e9-9cb5-219871ae3960" valueTypeId="60e71d25-54d0-45f6-8ede-7f847b6134ff"/>
+    <valueKeyType typeId="c936342e-6fff-4028-893a-7e7743569fd2" valueTypeId="83757e6d-4103-44ad-91e2-7a0add42bfdf"/>
+  </producedTypes>
+  <name>ПрефиксМаркетПлейса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Префикс маркет плейса</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>3</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

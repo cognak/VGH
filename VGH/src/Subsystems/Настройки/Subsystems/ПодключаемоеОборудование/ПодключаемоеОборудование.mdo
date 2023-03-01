@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4252c5a-a070-4a6e-9584-1111afc7e6b4">
+  <name>ПодключаемоеОборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемое оборудование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ПодключаемоеОборудование</content>
+  <content>Catalog.ДрайверыОборудования</content>
+  <content>Catalog.РабочиеМеста</content>
+  <parentSubsystem>Subsystem.Настройки</parentSubsystem>
+</mdclass:Subsystem>

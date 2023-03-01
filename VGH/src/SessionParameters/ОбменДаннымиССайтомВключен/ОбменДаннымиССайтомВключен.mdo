@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dff36467-48e8-4d1d-9b83-c58c58730b98">
+  <name>ОбменДаннымиССайтомВключен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными с сайтом включен</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Обмін даними з сайтом включений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

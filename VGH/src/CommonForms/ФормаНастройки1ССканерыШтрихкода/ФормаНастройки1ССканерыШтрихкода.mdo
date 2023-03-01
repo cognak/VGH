@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="502a2c67-19bc-4997-a65b-4d9aaf9a4107">
+  <name>ФормаНастройки1ССканерыШтрихкода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма настройки &quot;1С: Сканеры штрихкода&quot;</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Форма налаштування &quot;1С: Сканери штрихкоду&quot;</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>

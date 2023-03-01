@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddc15bb9-f3ee-4414-828d-b04b9f569636">
+  <producedTypes>
+    <refType typeId="190d80e6-b32a-4524-9806-3c4b67293f9a" valueTypeId="83233127-bbd1-4987-8847-60ead13dbda0"/>
+    <listType typeId="6c4bf5a6-e6b5-4f28-ab50-fa1b5db10ee1" valueTypeId="2d2a7326-9629-48d6-aa31-f9df23fba7ef"/>
+    <managerType typeId="d9cac8ce-c2cc-40c0-960a-cf4b37393276" valueTypeId="1362b785-2017-4400-af2d-06e59a6c216a"/>
+  </producedTypes>
+  <name>СпособыФорматноЛогическогоКонтроляМП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы форматно-логического контроля</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Способи форматно-логічного контролю</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2e52abb2-2120-4391-bf6c-1609268ad2f8">
+    <name>РазделятьСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделять строки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Розділяти рядки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b4f3943-8f8a-4317-9e7c-cff161d82c3e">
+    <name>ЗачитыватьСуммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачитывать суммы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Зараховувати суми</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="416af282-ecc0-40f2-b6b7-7a370dcab92b">
+    <name>НеКонтролировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не контролировать</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Не контролювати</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

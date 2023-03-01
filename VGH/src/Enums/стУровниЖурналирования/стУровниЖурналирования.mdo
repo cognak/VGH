@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fad77ff-d2a3-4138-bb53-c0c2a6b95d37">
+  <producedTypes>
+    <refType typeId="83665abe-1804-4227-88e7-dee3fefb3321" valueTypeId="bfa9bea5-4610-4f27-900e-4761824345f5"/>
+    <listType typeId="41e15a38-eb6f-456c-b1eb-59bbdb0a5b27" valueTypeId="e0d1f713-7bee-43b2-9754-ac8303080030"/>
+    <managerType typeId="eaa504cc-3e5f-44b5-af30-53909fe0c114" valueTypeId="a6248497-de4b-40ef-9692-a1acc57ff0dd"/>
+  </producedTypes>
+  <name>стУровниЖурналирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни журналирования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="55672f3b-8773-4f13-bbe1-66ae2cf02c4e">
+    <name>БезЖурнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без журнала</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de7d74f8-48b6-4fab-93e2-096e6914cc70">
+    <name>Минимальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="daee8429-2be5-403c-a84b-c66db82a5dd5">
+    <name>Максимальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Максимальный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

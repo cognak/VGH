@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdaddc56-9a29-4cba-a941-da45f5c94592">
+  <producedTypes>
+    <objectType typeId="d9888e5f-10f2-47bd-a85d-bc08c1f453d6" valueTypeId="93d60c4d-e256-4bc7-a932-c51ed1556872"/>
+    <managerType typeId="a397ff5d-1443-4cda-a003-2f56f703df79" valueTypeId="a2e34e18-17fb-43ec-ada5-de889d419659"/>
+  </producedTypes>
+  <name>ОформлениеОтгрузок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформление отгрузок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОформлениеОтгрузок.Form.основная</defaultForm>
+  <attributes uuid="9f33025a-d88b-43bd-8856-74c7832c8dd5">
+    <name>ТекущееУстройство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее устройство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодключаемоеОборудование</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa5402c4-f7d6-4178-a76f-8992fdb1daf1">
+    <name>ТекущееРабочееМесто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущее рабочее место</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РабочиеМеста</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ef8cc1d1-142d-47d0-af30-8518ae56ce4e">
+    <name>основная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
