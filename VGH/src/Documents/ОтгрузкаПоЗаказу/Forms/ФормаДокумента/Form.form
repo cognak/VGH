@@ -1316,6 +1316,7 @@
             <common>true</common>
           </userVisible>
           <horizontalAlign>Left</horizontalAlign>
+          <autoFill>true</autoFill>
         </autoCommandBar>
         <searchStringAddition>
           <visible>true</visible>
@@ -1459,7 +1460,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <representation>HierarchicalList</representation>
-        <readOnly>true</readOnly>
         <changeRowSet>true</changeRowSet>
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
