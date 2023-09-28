@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6682ea5-f797-42cb-8bb0-7447b6b3ffcf">
+  <name>WorkWithPrinters</name>
+  <synonym>
+    <key>ru</key>
+    <value>Work with printers</value>
+  </synonym>
+  <rootURL>printers</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="dda8f496-364b-4375-93b8-e537cd7cf5a6">
+    <name>ШаблонPrinters</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон printers</value>
+    </synonym>
+    <template>/get_printes/{command}</template>
+    <methods uuid="728241a7-a055-4022-9f12-a3c685e26ee5">
+      <name>ПолучитьПринтеры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить принтеры</value>
+      </synonym>
+      <handler>ШаблонPrintersПолучитьПринтеры</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="2f1becd5-1cb8-45a4-a9f1-0b15f5973e4d">
+    <name>SendPrinters</name>
+    <synonym>
+      <key>ru</key>
+      <value>Send printers</value>
+    </synonym>
+    <template>/sendprinters/{command}</template>
+    <methods uuid="c5f4301a-5a60-4c07-9dc5-5b7fdc7bfaa2">
+      <name>ОтправитьКомандуНаПринтер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправить команду на принтер</value>
+      </synonym>
+      <handler>ШаблонPrintersОтправитьКомандуНаПринтер</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

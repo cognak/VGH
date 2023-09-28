@@ -326,25 +326,10 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляОбъекта("")
-#Иначе
-#ПоЗначениям( "Справочник.ВнешниеПользователи", "", "",
-"ВнешниеПользователи", "ссылка", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","", "","")
-#КонецЕсли</condition>
-			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Update</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляОбъекта("")
-#Иначе
-ГДЕ Ссылка = &amp;ТекущийВнешнийПользователь
-#КонецЕсли</condition>
-			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>
@@ -548,13 +533,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляОбъекта("")
-#Иначе
-ГДЕ Ссылка = Значение(Справочник.ГруппыВнешнихПользователей.ВсеВнешниеПользователи)
-#КонецЕсли</condition>
-			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>

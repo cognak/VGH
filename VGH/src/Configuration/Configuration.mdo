@@ -12,6 +12,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2632a8a1-b032-4bc0-93ac-8c763c52f77e"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="27352cee-68b8-4677-af5c-fa2e5ae669bf"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="23b738dd-8688-43fd-9d6d-de61950b59c4"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -356,10 +357,14 @@
   <commonModules>CommonModule.ОбменСМанжента</commonModules>
   <commonModules>CommonModule.ОбработчикОбменСМанжентаКлиент</commonModules>
   <commonModules>CommonModule.МенеджерHTTP</commonModules>
+  <commonModules>CommonModule.WeightsWeb</commonModules>
+  <commonModules>CommonModule.PrintersWeb</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <exchangePlans>ExchangePlan.ОбменсСайтом</exchangePlans>
   <exchangePlans>ExchangePlan.ОбменсМаркетПлейсом</exchangePlans>
   <webServices>WebService.InterfaceVersion</webServices>
+  <httpServices>HTTPService.WorkWithWeights</httpServices>
+  <httpServices>HTTPService.WorkWithPrinters</httpServices>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПередЗаписьюПрисоединенногоФайла</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьПометкуУдаленияПредопределенныхЭлементов</eventSubscriptions>
