@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4fdeeae-ec76-43fa-9852-8293b5081fda">
+  <name>WorkWithWeights</name>
+  <synonym>
+    <key>ru</key>
+    <value>Work with weights</value>
+  </synonym>
+  <rootURL>weights</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="95be42a7-12f5-430b-873b-2d00afd37f41">
+    <name>ШаблонWeights</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон weights</value>
+    </synonym>
+    <template>/get_size/{command}</template>
+    <methods uuid="3a525f72-c59c-42ca-87b3-1f982631765e">
+      <name>ПолучитьРазмеры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить размеры</value>
+      </synonym>
+      <handler>ШаблонWeightsПолучитьРазмеры</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
