@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
+	<filter>
+		<viewMode>Normal</viewMode>
+		<userSettingID>0b8dacb8-778e-4858-9500-44f0a07d9f07</userSettingID>
+	</filter>
+	<order>
+		<item xsi:type="OrderItemField">
+			<field>Дата</field>
+			<orderType>Desc</orderType>
+		</item>
+		<viewMode>Normal</viewMode>
+		<userSettingID>d52b2a09-fd8f-43c4-ad28-bd1218f050fa</userSettingID>
+	</order>
+	<conditionalAppearance>
+		<viewMode>Normal</viewMode>
+		<userSettingID>0ea26266-cfa1-4382-a012-fe8b2647fcc0</userSettingID>
+	</conditionalAppearance>
+	<itemsViewMode>Normal</itemsViewMode>
+	<itemsUserSettingID>18a85c9e-1800-4d16-a4a3-5585d1bd54ad</itemsUserSettingID>
+</Settings>

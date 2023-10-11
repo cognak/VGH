@@ -519,6 +519,7 @@
   <catalogs>Catalog.РабочиеМеста</catalogs>
   <catalogs>Catalog.ДрайверыОборудования</catalogs>
   <documents>Document.ОтгрузкаПоЗаказу</documents>
+  <documents>Document.РеестрОтгрузок</documents>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
   <enums>Enum.ВариантыСжатияTIFF</enums>
   <enums>Enum.ДействияСФайламиПоДвойномуЩелчку</enums>

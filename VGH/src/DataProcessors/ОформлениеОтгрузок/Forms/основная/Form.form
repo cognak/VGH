@@ -589,16 +589,16 @@
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
-        <name>ПечатьРеестра</name>
-        <id>53</id>
+        <name>СписокОтгрузокСписокРеестров</name>
+        <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПечатьРеестраРасширеннаяПодсказка</name>
-          <id>54</id>
+          <name>СписокОтгрузокСписокРеестровРасширеннаяПодсказка</name>
+          <id>56</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -611,7 +611,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Command.ПечатьРеестра</commandName>
+        <commandName>Form.Command.СписокРеестров</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -988,10 +988,10 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ПечатьРеестра</name>
+    <name>СписокРеестров</name>
     <title>
       <key>ru</key>
-      <value>Печать реестра</value>
+      <value>Список реестров</value>
     </title>
     <id>3</id>
     <use>
@@ -999,7 +999,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ПечатьРеестра</name>
+        <name>СписокРеестров</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

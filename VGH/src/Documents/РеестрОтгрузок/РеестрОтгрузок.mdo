@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e22835e-b36c-47fc-a6bf-e8708d4a7b2f">
+  <producedTypes>
+    <objectType typeId="b0007184-64c6-4630-99df-1d7a56e6e191" valueTypeId="8d59f5ad-5c5a-4cc9-927d-be010523aea8"/>
+    <refType typeId="373646a8-d074-493d-8b2b-ead6acc285c8" valueTypeId="a6813b94-b921-42c1-acbd-44e800570607"/>
+    <selectionType typeId="ecc5ecc4-c169-452d-b06b-109cf083b44c" valueTypeId="4e840ad4-e9d7-4ff1-a4bb-753d5dfda0d9"/>
+    <listType typeId="8bbb658d-c83e-46c6-b775-e4e20f89056e" valueTypeId="15b214d2-20d5-4cc3-92bb-3b6cb71ea15e"/>
+    <managerType typeId="3266a433-d444-40e2-b7d4-d42537d02b2f" valueTypeId="f5fb3aea-df87-402b-bf7b-8879383bccd8"/>
+  </producedTypes>
+  <name>РеестрОтгрузок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр отгрузок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РеестрОтгрузок.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>36</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultListForm>Document.РеестрОтгрузок.Form.ФормаСписка</defaultListForm>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ea573666-9240-4dfc-b7a8-688ffcb6e697">
+    <name>Напечатан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напечатан</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5616826b-c469-4b40-96b4-6329a63b6e16">
+    <name>ВнешняяСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешняя ссылка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b7b95ea7-7968-4a6c-a2aa-f0b7f71f06cc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
